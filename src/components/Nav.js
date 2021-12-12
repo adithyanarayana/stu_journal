@@ -5,34 +5,27 @@ function Nav() {
   return (
     <div className="grid-container">
       <div>
-        <Link to="/gpa">
-          <button>GPA</button>
+        <Link to="/Student">
+          <button>STUDENT</button>
         </Link>
       </div>
       <div>
-        <Link to="/fees">
-          <button>FEES</button>
-        </Link>
-      </div>
-      <div>
-        <Link to="/library">
-          <button>LIBRARY</button>
-        </Link>
-      </div>
-      <div>
-        <Link to="/Notes">
-          <button>NOTES</button>
-        </Link>
-      </div>
-      <div>
-        <Link to="/Todo">
-          <button>TO-DO LIST</button>
+        <Link to="/Latest">
+          <button>LATEST</button>
         </Link>
       </div>
       <div>
         <Link to="/Preparation">
           <button>PREPARATION</button>
         </Link>
+      </div>
+      <div>
+        <Link to="/Feedback">
+          <button>Feedback/Review</button>
+        </Link>
+      </div>
+      <div>
+        <Link to="/Admin">Admin</Link>
       </div>
     </div>
   );

@@ -1,9 +1,9 @@
-const Preparation = () => {
-  return (
+function library () {
+    return(
     <div>
-      <h1>Preparation Page</h1>
+    <h1>library PAGE</h1>
     </div>
-  );
-};
+    );
+}
 
-export default Preparation;
+export default library;
