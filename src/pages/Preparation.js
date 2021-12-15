@@ -1,9 +1,10 @@
-function library () {
-    return(
-    <div>
-    <h1>library PAGE</h1>
+function library() {
+  return (
+    <div className="parent_div">
+      <h1>PREPARATION</h1>
+      <div className="child_div"></div>
     </div>
-    );
+  );
 }
 
 export default library;
