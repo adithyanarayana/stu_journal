@@ -10,7 +10,7 @@ const Loginpage = () => {
       if (user) {
         setPresentUser({
           uid: user?.uid,
-          email: user?.emal,
+          email: user?.email,
         });
       } else {
         setPresentUser(null);

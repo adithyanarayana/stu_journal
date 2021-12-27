@@ -32,69 +32,71 @@ const Feedback = () => {
     <div className="parent_div">
       <h1 style={{ textAlign: "center" }}>Feedback Form </h1>
       <div className="child_div">
-        <form onSubmit={submitHandler} autoComplete="off">
-          <div className="form-group">
-            <label className="control-label col-sm-2">Name:</label>
-            <div className="col-sm-4">
-              <input
-                type="text"
-                className="form-control"
-                placeholder="Enter Name"
-                name="name"
-                value={name}
-                onChange={changeHandler}
-              />
+        <center>
+          <form onSubmit={submitHandler} autoComplete="off">
+            <div className="form-group">
+              <label className="control-label col-sm-2">Name:</label>
+              <div className="col-sm-4">
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Enter Name"
+                  name="name"
+                  value={name}
+                  onChange={changeHandler}
+                />
+              </div>
             </div>
-          </div>
 
-          <div className="form-group">
-            <label className="control-label col-sm-2">Role:</label>
-            <div className="col-sm-4">
-              <input
-                type="text"
-                className="form-control"
-                placeholder="Role"
-                name="role"
-                value={role}
-                onChange={changeHandler}
-              />
+            <div className="form-group">
+              <label className="control-label col-sm-2">Role:</label>
+              <div className="col-sm-4">
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Role"
+                  name="role"
+                  value={role}
+                  onChange={changeHandler}
+                />
+              </div>
             </div>
-          </div>
 
-          <div className="form-group">
-            <label className="control-label col-sm-2">Email:</label>
-            <div className="col-sm-4">
-              <input
-                type="email"
-                className="form-control"
-                placeholder="Enter Email"
-                name="email"
-                value={email}
-                onChange={changeHandler}
-              />
+            <div className="form-group">
+              <label className="control-label col-sm-2">Email:</label>
+              <div className="col-sm-4">
+                <input
+                  type="email"
+                  className="form-control"
+                  placeholder="Enter Email"
+                  name="email"
+                  value={email}
+                  onChange={changeHandler}
+                />
+              </div>
             </div>
-          </div>
 
-          <div className="form-group">
-            <label className="control-label col-sm-2">Message:</label>
-            <div className="col-4">
-              <textarea
-                type="text"
-                className="form-control"
-                placeholder="Enter Comment/Feedback"
-                name="message"
-                value={message}
-                onChange={changeHandler}
-              />
+            <div className="form-group">
+              <label className="control-label col-sm-2">Message:</label>
+              <div className="col-4">
+                <textarea
+                  type="text"
+                  className="form-control"
+                  placeholder="Enter Comment/Feedback"
+                  name="message"
+                  value={message}
+                  onChange={changeHandler}
+                />
+              </div>
             </div>
-          </div>
 
-          <div className="form-group">
-            <div className="col-sm-offset-2 col-sm-10">
-              <input type="submit" className="btn btn-success" />
+            <div className="form-group">
+              <div className="col-sm-offset-2 col-sm-10">
+                <input type="submit" className="btn btn-success" />
+              </div>
             </div>
-          </div>
-        </form>
+          </form>
+        </center>
       </div>
     </div>
   );

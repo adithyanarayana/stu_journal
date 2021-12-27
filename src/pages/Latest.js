@@ -12,16 +12,16 @@ function Latest() {
   }, []);
   return (
     <div className="parent_div">
+      <h2>LATEST NOTIFICATIONS</h2>
       <div className="child_div">
         <center>
-          <h2>LATEST NOTIFICATIONS</h2>
           <div className="card col-10">
             {getData &&
               Object.keys(getData).map((key) => (
                 <div className="border">
                   <p>{currDate}</p>
                   <p>{getData[key].notification}</p>
-                  <a href={getData[key].url} target="_blank">
+                  <a href={getData[key].url} target="_blank" rel="">
                     {getData[key].url}
                   </a>
                 </div>

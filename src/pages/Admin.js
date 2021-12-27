@@ -20,9 +20,11 @@ const Admin = () => {
         <button class="btn btn-primary col-10 btn_div" type="button">
           Preparation
         </button>
-        <button class="btn btn-primary col-10 btn_div" type="button">
-          Student
-        </button>
+        <Link to="/Stu_admin">
+          <button class="btn btn-primary col-10 btn_div" type="button">
+            Student
+          </button>
+        </Link>
         <button
           class="btn btn-danger col-10 btn_div"
           onClick={() => auth.signOut()}

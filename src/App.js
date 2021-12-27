@@ -9,9 +9,9 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import UserAuth from "./pages/UserAuth";
 import Feedback from "./pages/Feedback";
 import Feed from "./pages/Feed";
-//import Admin from "./pages/Admin";
+import Notespage from "./pages/Notespage";
 import Loginpage from "./components/Loginpage";
-//import { auth } from "./firebase";
+import Stu_admin from "./pages/Stu_admin";
 import Pushnoti from "./components/Pushnoti";
 
 function App() {
@@ -53,6 +53,12 @@ function App() {
             </Route>
             <Route path="/Pushnoti">
               <Pushnoti />
+            </Route>
+            <Route path="/Notespage">
+              <Notespage />
+            </Route>
+            <Route path="/Stu_admin">
+              <Stu_admin />
             </Route>
           </Switch>
         </div>
